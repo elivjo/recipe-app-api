@@ -128,6 +128,10 @@ USE_TZ = True
 STATIC_URL = '/static/'
 AUTH_USER_MODEL = 'core.User'    # core is app and User our model 
 
+MEDIA_URL = '/media/'
+
+MEDIA_ROOT = '/vol/web/media'
+STATIC_ROOT = '/vol/web/static'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
